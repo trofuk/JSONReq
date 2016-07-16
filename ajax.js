@@ -45,7 +45,7 @@ function refreshItemList()
 	{
 		if(oReq.status == 200)
 		{
-			renderItems(oReg.responseText);
+			renderItems(oReq.responseText);
 		}
 	}
 oReq.send();
@@ -59,7 +59,7 @@ function addNewItem(item)
 	{
 		if(oReq.status == 200)
 		{
-			renderItems(oReg.responseText);
+			renderItems(oReq.responseText);
 		}
 	}
 oReq.setRequestHeader("Content-Type", "application/json");
