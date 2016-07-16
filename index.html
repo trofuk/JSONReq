@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>JSON modified</title>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<h2>	Available entries</h2>
+					<br>
+					<div id="entries">	</div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<h2>Add new entry:	</h2>
+					<form action="save.php" id="newEntryForm">
+						<div class="form-group">
+							<label for="name">Password</label>
+							<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+						</div>
+						<div class="form-group">
+							<label for="surname">surname</label>
+							<input type="text" class="form-control" name="surname" id="surname" placeholder="Surname">
+						</div>
+						<div class="form-group">
+							<label for="age">Age</label>
+							<input type="text" class="form-control" name="age" id="age" placeholder="input your age">
+						</div>
+						<div class="form-group">
+							<label for="Password">About</label>
+							<input type="text" class="form-control" name="about" id="about" placeholder="input some message">
+						</div>
+						<button type="submit" class="btn btn-success" name="button">Add Entry</button>
+					</form>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
